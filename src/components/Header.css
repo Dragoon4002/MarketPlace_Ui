@@ -1,0 +1,24 @@
+.header{
+    padding: 0px 20px;
+}
+
+.header, .header * {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+}
+
+.header nav, nav ul{
+    width: 30vw;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header input{width: 20vw;height: 2vh;border-radius: 20px;padding: 10px;}
+
+.header nav ul li a {
+    text-decoration: none;
+}
